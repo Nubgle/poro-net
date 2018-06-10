@@ -1,0 +1,13 @@
+{
+  "name": "Poro Net",
+  "description": "Poro Net bot",
+  "version": "0.0.0",
+  "main": "poronet.js",
+  "scripts": {
+    "start": "node poronet.js"
+  },
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
+  }
+}
