@@ -3,6 +3,10 @@
   "description": "Poro Net bot",
   "version": "0.0.0",
   "main": "poronet.js",
+  "engines":{
+    "node": "8.9.3",
+    "npm": "5.6.0"
+  },
   "scripts": {
     "heroku-postbuild": "cd frontend && npm install && cd ../mockserver && npm install",
     "start": "node poronet"
