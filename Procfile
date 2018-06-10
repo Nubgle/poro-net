@@ -1,1 +1,1 @@
-worker: node poronet.js
+worker: node poronet
