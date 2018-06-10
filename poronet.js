@@ -1,5 +1,8 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
+const UrbanDictionary = require("urban-dictionary");
+const pokegif = require("pokemon-gif");
+let Pokedex = require("pokedex")
 
 client.on("ready", () => {
   console.log("im about to oof up this city");
