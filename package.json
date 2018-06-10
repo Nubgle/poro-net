@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "main": "poronet.js",
   "scripts": {
+    "heroku-postbuild": "cd frontend && npm install && cd ../mockserver && npm install",
     "start": "node poronet"
   },
   "dependencies": {
