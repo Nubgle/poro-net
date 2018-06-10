@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "main": "poronet.js",
   "scripts": {
-    "start": "node poronet.js"
+    "start": "node poronet"
   },
   "dependencies": {
     "discord.js": "11.1.0",
